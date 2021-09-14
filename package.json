@@ -1,0 +1,29 @@
+{
+  "name": "intro-typescript",
+  "version": "1.0.0",
+  "description": "intro-typescript, webpack tsconfig",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "serve": "webpack-dev-server --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neyzar1111/intro-typescript.git"
+  },
+  "author": "Aichurok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neyzar1111/intro-typescript/issues"
+  },
+  "homepage": "https://github.com/neyzar1111/intro-typescript#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
